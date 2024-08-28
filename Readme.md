@@ -6,19 +6,19 @@ Basically, autoversion is an automated search & replace tool. By using a control
 If you have large projects where you need to change version numbers in many places, autoversion comes in handy.
 
 ## Example control file:
-@Version		"v4.10"
-@LongVersion	"v4.10.0.0"
+@Version		"v4.10"  
+@LongVersion	"v4.10.0.0"  
 
-&"main.cpp"		"v4.00"			@Version
-&"resource.rc"	"v4.00.5.0"		@LongVersion
+&"main.cpp"		"v4.00"			@Version  
+&"resource.rc"	"v4.00.5.0"		@LongVersion  
 
 The interesting part is that autoversion updates the control file itself, after all replacements have been performed successfully. After the replacement, the control file will look like this:
 
-@Version		"v4.10"
-@LongVersion	"v4.10.0.0"
+@Version		"v4.10"  
+@LongVersion	"v4.10.0.0"  
 
-&"main.cpp"		"v4.10"			@Version
-&"resource.rc"	"v4.10.0.0"		@LongVersion
+&"main.cpp"		"v4.10"			@Version  
+&"resource.rc"	"v4.10.0.0"		@LongVersion  
 
 This way, if you make a new release, you only need to change the @-constant definitions, but not the search/replace instructions.
 
