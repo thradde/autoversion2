@@ -1,0 +1,15 @@
+Dies ist ein Test.
+
+hier	sind	tabs
+
+const char *name = "vpep3240";
+
+Dies ist ein Test.
+FileVersion "4.0.0.BUILD_NUMBER"
+Dies ist ein Test.
+
+Dies ist ein Test.
+const char *version = "_T(\"4.00\")";
+Dies ist ein Test.
+Component Name is "Virtual Print Engine"
+Dies ist ein Test.

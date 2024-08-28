@@ -1,0 +1,3 @@
+Startgrenzen10ABCDEF
+müssen auch bei Verkürzungen genauso eingehalten werden
+wie Endgrenzen10
